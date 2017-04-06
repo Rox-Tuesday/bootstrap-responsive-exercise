@@ -9,15 +9,14 @@ html, body {
 /* Large */
 /* Header */
 body {
-    position: relative;
     background-color: #F0F0F0;
 }
 #header {
     margin-top: 33px;
 }
 #logo {
-    position: absolute;
-    top: -26px;
+    position: relative;
+    top: -40px;
     padding-left: 200px;
     height: 99px;
 }
@@ -69,9 +68,7 @@ body {
     vertical-align: 25%;
 }
 
-.btn-main {
-    text-align: center;
-}
+
 
 .rnd-btn {
     text-transform: uppercase;
@@ -84,4 +81,42 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin: 10px;
+}
+
+.btn-main {
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 750px) {
+    /*.btn-main {*/
+        /*text-align: right;*/
+    /*}*/
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+    #first-row {
+        display: flex;
+    }
+    #second-row {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #logo {
+        left: -210px;
+    }
+    /*#first-row {*/
+        /*float: left;*/
+    /*}*/
+
+    /*#second-row {*/
+        /*float: right;*/
+    /*}*/
+
+
+
 }
