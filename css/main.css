@@ -14,11 +14,14 @@ body {
 #header {
     margin-top: 33px;
 }
-#logo {
+#logo1 {
     position: relative;
     top: -40px;
     padding-left: 200px;
     height: 99px;
+}
+#logo2 {
+    display: none;
 }
 #links {
     float: right;
@@ -44,6 +47,7 @@ body {
 }
 
 
+
 /* Main */
 .main-header {
     text-transform: uppercase;
@@ -54,6 +58,7 @@ body {
 }
 
 #h1-header {
+    padding-top: 50px;
     font-size: 48px;
 }
 
@@ -87,6 +92,10 @@ body {
     text-align: center;
 }
 
+.bottom-img {
+    margin: 10px;
+}
+
 
 
 @media screen and (min-width: 750px) {
@@ -105,10 +114,21 @@ body {
     }
 }
 
+
+/* Small */
+
 @media screen and (max-width: 750px) {
-    #logo {
-        left: -210px;
-    }
+    /*#logo2 {*/
+        /*position: relative;*/
+        /*left: 165px;*/
+        /*top: -35px;*/
+        /*display: block;*/
+        /*height: 120px;*/
+        /*width: 120px;*/
+    /*}*/
+    /*#logo1 {*/
+        /*display: none;*/
+    /*}*/
     /*#first-row {*/
         /*float: left;*/
     /*}*/
