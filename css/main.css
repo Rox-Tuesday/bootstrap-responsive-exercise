@@ -7,6 +7,7 @@ html, body {
 }
 
 /* Large */
+/* Header */
 body {
     position: relative;
     background-color: #F0F0F0;
@@ -42,6 +43,36 @@ body {
     line-height: 1.33;
     border-radius: 50px;
 }
+
+
+/* Main */
+.main-header {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+
+}
+
+#h1-header {
+    font-size: 48px;
+}
+
+#h3-header {
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+#span-h1 {
+    font-size: 27px;
+    font-weight: normal;
+    vertical-align: 25%;
+}
+
+.btn-main {
+    text-align: center;
+}
+
 .rnd-btn {
     text-transform: uppercase;
     color: white;
@@ -52,4 +83,5 @@ body {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 10px;
 }
