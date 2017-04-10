@@ -6,37 +6,51 @@ html, body {
     overflow: auto;
 }
 
-/* Large */
-/* Header */
 body {
     background-color: #F0F0F0;
 }
+
+/* Large */
+/* Header */
 #header {
     margin-top: 33px;
 }
+
 #logo1 {
-    position: relative;
-    top: -40px;
-    padding-left: 200px;
-    height: 99px;
+    height: 125px;
+    margin-top: -53px;
 }
+
 #logo2 {
     display: none;
 }
-#links {
+
+
+
+/*#links {*/
+    /*float: right;*/
+/*}*/
+
+.links1-2 {
     float: right;
-    padding-right: 250px;
 }
-#nav-bar {
+
+.links3-4 {
+    float: right;
+}
+
+.my-navbar {
     background-color: white;
-    border: 3.2px solid #fafafa;
+    border: 3.2px solid #E1E1E1;
 }
+
 .nav-li {
     text-transform: uppercase;
     color: #F0F0F0;
     font-family: sans-serif;
     font-size: 12px;
 }
+
 .circle {
     width: 100px;
     height: 100px;
@@ -73,8 +87,6 @@ body {
     vertical-align: 25%;
 }
 
-
-
 .rnd-btn {
     text-transform: uppercase;
     color: white;
@@ -98,10 +110,7 @@ body {
 
 
 
-@media screen and (min-width: 750px) {
-    /*.btn-main {*/
-        /*text-align: right;*/
-    /*}*/
+@media screen and (min-width: 768px) {
     .buttons {
         display: flex;
         justify-content: center;
@@ -117,26 +126,40 @@ body {
 
 /* Small */
 
-@media screen and (max-width: 750px) {
-    /*#logo2 {*/
-        /*position: relative;*/
-        /*left: 165px;*/
-        /*top: -35px;*/
-        /*display: block;*/
-        /*height: 120px;*/
-        /*width: 120px;*/
-    /*}*/
-    /*#logo1 {*/
-        /*display: none;*/
-    /*}*/
-    /*#first-row {*/
-        /*float: left;*/
-    /*}*/
+@media screen and (max-width: 768px) {
+    #mylogo {
+        display: block;
+        float: none;
+    }
 
-    /*#second-row {*/
-        /*float: right;*/
-    /*}*/
+    .navbar-brand {
+        display: block;
+    }
+}
 
 
+/* Medium */
 
+@media screen and (max-width: 992px) {
+    #logo1 {
+        display: none;
+    }
+
+    #logo2 {
+        display: block;
+        height: 105px;
+        margin-top: -40px;
+    }
+
+    .links1-2 {
+        float: right;
+    }
+
+    .links3-4 {
+        float: left;
+    }
+
+    #mylogo {
+        margin-left: 27%;
+    }
 }
